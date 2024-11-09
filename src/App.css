@@ -82,6 +82,16 @@ header{
   z-index: 1000;
    -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px);
 }
+
+@media (max-width:800px) {
+  .header{
+      flex-wrap: wrap;
+  }
+  .header .logo{
+    width: 48% !important;
+
+  }
+}
 body.dark header{
   background: #112143 !important;
 }
@@ -1149,4 +1159,118 @@ body.dark .form .form-group input,body.dark .form .form-group textarea{
   background: #2b3c5f !important;
   border: 1px solid #253557 !important;
   color: rgba(255,255,255,0.8) !important;
+}
+
+@media (max-width: 1200px) {
+  .dashboardBoxWrapper .dashboardBox {
+    width: 23vw;
+    height: 25vh;
+  }
+
+  .dashboardBoxWrapper .dashboardBox .icon {
+    margin-left: 130px;
+  }
+
+  .dashboardBoxWrapper .dashboardBox .bottomEle {
+    position: static;
+  }
+
+  .col1 h4 {
+    width: auto;
+  }
+
+  .toggleIcon svg {
+    margin-left: -38px;
+  }
+
+  .main .sidebarWrapper .sidebar {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .dashboardBoxWrapper .dashboardBox {
+    width: 35vw;
+    height: 30vh;
+  }
+
+  .col-md-4 {
+    width: 100vw;
+  }
+
+  .dashboardBoxWrapper {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .main .sidebarWrapper .sidebar {
+    max-width: 20vw;
+  }
+
+  .col-md-8 {
+    width: auto;
+  }
+
+}
+
+@media (max-width:768px) {
+  .dashboardBoxWrapper .dashboardBox {
+    width: 34vw;
+    height: 20vh;
+  }
+
+}
+
+@media (max-width: 630px) {
+  .dashboardBoxWrapper .dashboardBox {
+    width: 50%;
+    height: 50vh;
+  }
+}
+
+
+@media (max-width: 575px ) {
+  .dashboardBoxWrapper .searchBox{
+    width: 50vw;
+    height: 60vh;
+  }
+  .dashboardBox {
+    width: 0rex; 
+    margin-top: 50vh; 
+  }
+}
+
+@media (max-width: 390px) {
+ .dashboardBoxWrapper .searchBox{
+  width: 60%;
+  height: 60vh;
+  margin-top: auto;
+ }
+
+ .dashboardBoxWrapperRow .dashboardBox{
+  width: 5rex;
+  margin-top: 60vh;
+ }
+
+ .header{
+  width: 50%;
+ }
+ .col-sm-9{
+  height: 60vh;
+ }
+}
+@media (max-width: 575px)
+{
+  .dashboardBoxWrapperRow{
+    width: 100%; 
+    max-width: 60vh;
+  }
+ 
+}
+
+@media (max-width:390px) {
+  .dashboardBox{
+    width: auto;
+    padding-left: 50%;
+  }
 }

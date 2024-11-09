@@ -251,7 +251,7 @@ const Dashboard =  ()=>{
                                         <div style={{width:'70px'}}>
                                             <del className="old">$21.00</del>
                                             <span className="new text-danger">$21.00</span>
-                                        </div>
+                        .                </div>
                                     </td>
                                     <td>30</td>
                                     <td>4.9(16)</td>
